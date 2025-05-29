@@ -35,7 +35,7 @@ git clone --depth=1 https://github.com/sirpdboy/luci-app-adguardhome package/luc
 #git clone --depth=1 https://github.com/ilxp/luci-app-ikoolproxy package/luci-app-ikoolproxy
 #git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 #git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone --depth=1 https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
+#git clone --depth=1 https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
 #git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebrowser luci-app-ssr-mudb-server
 #git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 #git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
@@ -73,10 +73,11 @@ git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 
 # golang
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
+git clone --depth=1 https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
 
 # MosDNS
-git clone --depth=1 -b v5  https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+rm -rf feeds/packages/net/v2ray-geodata
+git clone --depth=1 https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 # Alist
