@@ -68,8 +68,8 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 #git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
 # msd_lite
-git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
-git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
+#git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
+#git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 
 # golang
 rm -rf feeds/packages/lang/golang
@@ -77,7 +77,7 @@ git clone --depth=1 https://github.com/sbwml/packages_lang_golang -b 23.x feeds/
 
 # MosDNS
 rm -rf feeds/packages/net/v2ray-geodata
-git clone --depth=1 https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
+git clone --depth=1 https://github.com/sbwml/luci-app-mosdns -b v5 package/luci-app-mosdns
 git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 # Alist
