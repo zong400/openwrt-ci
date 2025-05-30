@@ -69,7 +69,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 
 # msd_lite
 #git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
-git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
+#git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 
 # golang
 rm -rf feeds/packages/lang/golang
